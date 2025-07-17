@@ -1,0 +1,34 @@
+{
+    "name": "ShootingInputActions",
+    "maps": [
+        {
+            "name": "Shooting",
+            "id": "752e9092-9946-4ac7-889a-ebebbad987af",
+            "actions": [
+                {
+                    "name": "Shooting",
+                    "type": "Button",
+                    "id": "9805eea6-d6b5-4ea0-bb45-91ab3217323c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "195b6760-0021-43f5-a7e9-1642f4a26a52",
+                    "path": "<XRController>/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shooting",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

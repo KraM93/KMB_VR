@@ -1,0 +1,34 @@
+{
+    "name": "XRI_DefaultInputActions",
+    "maps": [
+        {
+            "name": "XRI UI",
+            "id": "ef59e8ed-b49b-4aa4-8b88-ad62b64ad350",
+            "actions": [
+                {
+                    "name": "UI Press",
+                    "type": "Button",
+                    "id": "67d2d832-38fe-42e4-a679-ad3fdd8eaafc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7ee7d486-a1ce-48fb-8b72-d682a0126da3",
+                    "path": "<OculusTouchController>{RightHand}/{PrimaryTrigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UI Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,74 @@
+{
+    "name": "XRI_DefaultInputActions",
+    "maps": [
+        {
+            "name": "XRI UI",
+            "id": "3259d72b-0c00-45d9-b1ee-f7f950729590",
+            "actions": [
+                {
+                    "name": "UI Press",
+                    "type": "Button",
+                    "id": "4df6ca4a-5d03-476d-98d8-ff05f96b2bf4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UI Select",
+                    "type": "Value",
+                    "id": "a6fc87b9-fb3c-4783-8033-e3702a3b631a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "UI Hover",
+                    "type": "Value",
+                    "id": "e8ba042b-4670-4a57-941b-1e5bf2d24b2b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cf5be20b-aa69-4d7e-b3eb-effe33405b41",
+                    "path": "<OculusTouchController>{RightHand}/{PrimaryTrigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UI Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3fea277b-4648-4fcf-a3ad-0d9806347585",
+                    "path": "XR Ray Interactor",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UI Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68ef3a1d-ff72-40f8-970b-a66990616706",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UI Hover",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
